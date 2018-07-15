@@ -1,82 +1,72 @@
 
-
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
-import static org.testng.Assert.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class Trello
 {
   private WebDriver driver;
-  private String baseUrl;
-  private boolean acceptNextAlert = true;
-  private StringBuffer verificationErrors = new StringBuffer();
 
   @BeforeClass(alwaysRun = true)
-  public void setUp() throws Exception {
-    driver = new FirefoxDriver();
-    baseUrl = "https://www.katalon.com/";
-    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+  public void setUp() {
+    driver = new ChromeDriver();
+    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
   }
 
   @Test
-  public void testUntitledTestCase() throws Exception {
-    driver.get("https://trello.com/");
-    driver.findElement(By.linkText("Зарегистрироваться")).click();
-    driver.findElement(By.id("name")).click();
-    driver.findElement(By.id("name")).clear();
-    driver.findElement(By.id("name")).sendKeys("Ilana");
-    // ERROR: Caught exception [ERROR: Unsupported command [doubleClick | id=email | ]]
-    driver.findElement(By.id("email")).clear();
-    driver.findElement(By.id("email")).sendKeys("ilana_@mail.ru");
-    driver.findElement(By.id("password")).click();
-    driver.findElement(By.id("password")).clear();
-    driver.findElement(By.id("password")).sendKeys("31052013");
+  public void testTrello() {
+    //opensite
+    openSite();
+    driver.findElement(By.xpath("//*[@href='/signup']")).click();
+
+    fillNameField();
+    fillEmailField();
+    fillPasswordField();
+    clickOnSignUpButton();
+  }
+
+  public void clickOnSignUpButton() {
     driver.findElement(By.id("signup")).click();
   }
 
-  @AfterClass(alwaysRun = true)
-  public void tearDown() throws Exception {
-    driver.quit();
-    String verificationErrorString = verificationErrors.toString();
-    if (!"".equals(verificationErrorString)) {
-      fail(verificationErrorString);
-    }
+  public void fillPasswordField() {
+    driver.findElement(By.id("password")).click();
+    driver.findElement(By.id("password")).clear();
+    driver.findElement(By.id("password")).sendKeys("31052013");
   }
 
-  private boolean isElementPresent(By by) {
+  public void fillEmailField() {
+    driver.findElement(By.id("email")).click();
+    driver.findElement(By.id("email")).clear();
+    driver.findElement(By.id("email")).sendKeys("ilana_5@mail.ru");
+  }
+
+  public void fillNameField() {
+    driver.findElement(By.id("name")).click();
+    driver.findElement(By.id("name")).clear();
+    driver.findElement(By.id("name")).sendKeys("Ilana");
+  }
+
+  public void openSite() {
+    driver.get("https://trello.com/");
+  }
+
+  @AfterClass(alwaysRun = true)
+  public void tearDown() throws InterruptedException {
+    Thread.sleep(3000);
+    driver.quit();
+  }
+
+  private boolean isElementPresent(By locator) {
     try {
-      driver.findElement(by);
+      driver.findElement(locator);
       return true;
     } catch (NoSuchElementException e) {
       return false;
     }
   }
 
-  private boolean isAlertPresent() {
-    try {
-      driver.switchTo().alert();
-      return true;
-    } catch (NoAlertPresentException e) {
-      return false;
-    }
-  }
-
-  private String closeAlertAndGetItsText() {
-    try {
-      Alert alert = driver.switchTo().alert();
-      String alertText = alert.getText();
-      if (acceptNextAlert) {
-        alert.accept();
-      } else {
-        alert.dismiss();
-      }
-      return alertText;
-    } finally {
-      acceptNextAlert = true;
-    }
-  }
 }
