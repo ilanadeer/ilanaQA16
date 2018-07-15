@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstProject.iml" filepath="$PROJECT_DIR$/.idea/modules/firstProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/firstProject_main.iml" group="firstProject" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/firstProject_test.iml" group="firstProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/secondRecorded.iml" filepath="$PROJECT_DIR$/.idea/modules/secondRecorded.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/secondRecorded_main.iml" filepath="$PROJECT_DIR$/.idea/modules/secondRecorded_main.iml" group="secondRecorded" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/secondRecorded_test.iml" filepath="$PROJECT_DIR$/.idea/modules/secondRecorded_test.iml" group="secondRecorded" />
     </modules>
   </component>
 </project>
