@@ -3,12 +3,13 @@ package com.tran.qa16;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class GroupModificationTea {
+public class GroupModificationTest {
     WebDriver wd;
 
     @BeforeMethod
@@ -32,9 +33,9 @@ public class GroupModificationTea {
     public void testGroupModification() {
         wd.findElement(By.linkText("groups")).click();
 
-        wd.findElement(By.name("selected[]"));
+        wd.findElement(By.name("selected[]")).click();
 
-        wd.findElement(By.name("edit"));
+        wd.findElement(By.name("edit")).click();
 
         wd.findElement(By.name("group_name")).click();
         wd.findElement(By.name("group_name")).clear();
@@ -52,5 +53,9 @@ public class GroupModificationTea {
 
         wd.findElement(By.linkText("group page")).click();
 
+    }
+    @AfterMethod
+    public void tearDown(){
+        wd.quit();
     }
 }

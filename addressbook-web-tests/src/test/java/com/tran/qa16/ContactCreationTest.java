@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class GroupDeletionTest {
+public class ContactCreationTest {
     WebDriver wd;
 
     @BeforeMethod
@@ -30,16 +30,31 @@ public class GroupDeletionTest {
     }
 
     @Test
-    public void testGroupModification() {
-        wd.findElement(By.linkText("groups")).click();
+    public void testContactCreation(){
+        wd.findElement(By.linkText("add new")).click();
 
-        wd.findElement(By.name("selected[]")).click();
+        wd.findElement(By.name("firstname")).click();
+        wd.findElement(By.name("firstname")).clear();
+        wd.findElement(By.name("firstname")).sendKeys("Anna");
 
-        wd.findElement(By.name("delete")).click();
+        wd.findElement(By.name("lastname")).click();
+        wd.findElement(By.name("lastname")).clear();
+        wd.findElement(By.name("lastname")).sendKeys("Ivanova");
 
-        wd.findElement(By.linkText("group page")).click();
+        wd.findElement(By.name("mobile")).click();
+        wd.findElement(By.name("mobile")).clear();
+        wd.findElement(By.name("mobile")).sendKeys("0520000");
 
+
+        wd.findElement(By.name("email")).click();
+        wd.findElement(By.name("email")).clear();
+        wd.findElement(By.name("email")).sendKeys("qwerty@mail.com");
+
+        wd.findElement(By.name("submit")).click();
+
+        wd.findElement(By.linkText("home page")).click();
     }
+
     @AfterMethod
     public void tearDown(){
         wd.quit();

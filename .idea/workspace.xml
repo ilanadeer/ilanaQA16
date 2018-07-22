@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d72384e8-78cc-4162-afcd-d63d75b05fe3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupCreationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupDeletionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupModificationTea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/ContactCreationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/out/test/classes/com/tran/qa16/GroupDeletionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/out/test/classes/com/tran/qa16/GroupDeletionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/out/test/classes/com/tran/qa16/GroupModificationTea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupDeletionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupDeletionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupModificationTea.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupModificationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/firstProject/.gradle/" />
     <ignored path="$PROJECT_DIR$/firstProject/build/" />
@@ -56,37 +51,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GroupCreationTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GroupCreationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupCreationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            <state relative-caret-position="327">
+              <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#1376#1377#0" expanded="true" />
-                <element signature="e#1430#1431#0" expanded="true" />
-                <element signature="e#1392#1393#0" expanded="true" />
-                <element signature="e#1453#1454#0" expanded="true" />
                 <element signature="e#1822#1823#0" expanded="true" />
                 <element signature="e#1847#1848#0" expanded="true" />
                 <element signature="e#1904#1905#0" expanded="true" />
                 <element signature="e#1958#1959#0" expanded="true" />
+                <element signature="e#1364#1365#0" expanded="true" />
+                <element signature="e#1429#1430#0" expanded="true" />
+                <element signature="e#1470#1471#0" expanded="true" />
+                <element signature="e#1527#1528#0" expanded="true" />
+                <element signature="e#2178#2179#0" expanded="true" />
+                <element signature="e#2232#2233#0" expanded="true" />
+                <element signature="e#2268#2269#0" expanded="true" />
+                <element signature="e#2329#2330#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupModificationTea.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupModificationTea.java">
+      <file leaf-file-name="GroupModificationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupModificationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+            <state relative-caret-position="210">
+              <caret line="56" selection-start-line="56" selection-end-line="59" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1857#1858#0" expanded="true" />
+                <element signature="e#1882#1883#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +92,27 @@
       <file leaf-file-name="GroupDeletionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupDeletionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="94">
+              <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1217#1218#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactCreationTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/ContactCreationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1835#1836#0" expanded="true" />
+                <element signature="e#1860#1861#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1275,14 +1291,16 @@
         <option value="$PROJECT_DIR$/HW Ebay/build.gradle" />
         <option value="$PROJECT_DIR$/HW Ebay/src/test/java/Ebay.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
-        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupModificationTea.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupCreationTest.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupDeletionTest.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupModificationTea.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/ContactCreationTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="64" />
-    <option name="y" value="23" />
+    <option name="x" value="68" />
+    <option name="y" value="44" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -1379,7 +1397,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GroupCreationTest.testGroupCreation">
+  <component name="RunManager" selected="TestNG.ContactCreationTest.testContactCreation">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -1399,16 +1417,22 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Ebay.testEbay (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HW_Ebay_test" />
+    <configuration name="ContactCreationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tran.qa16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ebay" />
-      <option name="METHOD_NAME" value="testEbay" />
+      <option name="PACKAGE_NAME" value="com.tran.qa16" />
+      <option name="MAIN_CLASS_NAME" value="com.tran.qa16.ContactCreationTest" />
+      <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -1422,20 +1446,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Ebay.testEbay" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HW_Ebay_test" />
+    <configuration name="ContactCreationTest.testContactCreation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.tests.*" />
+          <option name="PATTERN" value="com.tran.qa16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.Ebay" />
-      <option name="METHOD_NAME" value="testEbay" />
+      <option name="PACKAGE_NAME" value="com.tran.qa16" />
+      <option name="MAIN_CLASS_NAME" value="com.tran.qa16.ContactCreationTest" />
+      <option name="METHOD_NAME" value="testContactCreation" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1480,14 +1504,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="TestOpenChrome.openSiteTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="firstProject_test" />
+    <configuration name="GroupDeletionTest.testGroupModification" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tran.qa16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestOpenChrome" />
-      <option name="METHOD_NAME" value="openSiteTest" />
+      <option name="PACKAGE_NAME" value="com.tran.qa16" />
+      <option name="MAIN_CLASS_NAME" value="com.tran.qa16.GroupDeletionTest" />
+      <option name="METHOD_NAME" value="testGroupModification" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1503,14 +1533,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Trello.testTrello" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="secondRecorded_test" />
+    <configuration name="GroupModificationTest.testGroupModification" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tran.qa16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Trello" />
-      <option name="METHOD_NAME" value="testTrello" />
+      <option name="PACKAGE_NAME" value="com.tran.qa16" />
+      <option name="MAIN_CLASS_NAME" value="com.tran.qa16.GroupModificationTest" />
+      <option name="METHOD_NAME" value="testGroupModification" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1549,19 +1585,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestOpenChrome.openSiteTest" />
-      <item itemvalue="TestNG.Trello.testTrello" />
-      <item itemvalue="TestNG.Ebay.testEbay" />
-      <item itemvalue="TestNG.Ebay.testEbay (1)" />
       <item itemvalue="TestNG.GroupCreationTest.testGroupCreation" />
+      <item itemvalue="TestNG.GroupDeletionTest.testGroupModification" />
+      <item itemvalue="TestNG.GroupModificationTest.testGroupModification" />
+      <item itemvalue="TestNG.ContactCreationTest" />
+      <item itemvalue="TestNG.ContactCreationTest.testContactCreation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactCreationTest.testContactCreation" />
+        <item itemvalue="TestNG.ContactCreationTest" />
+        <item itemvalue="TestNG.GroupDeletionTest.testGroupModification" />
+        <item itemvalue="TestNG.GroupModificationTest.testGroupModification" />
         <item itemvalue="TestNG.GroupCreationTest.testGroupCreation" />
-        <item itemvalue="TestNG.Ebay.testEbay (1)" />
-        <item itemvalue="TestNG.Ebay.testEbay" />
-        <item itemvalue="TestNG.Trello.testTrello" />
-        <item itemvalue="TestNG.TestOpenChrome.openSiteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1579,39 +1615,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Trello_testTrello - 2018.07.15 at 18h 35m 29s.xml">
-      <configuration name="Trello.testTrello" configurationId="TestNG" />
+    <history-entry file="GroupModificationTea_testGroupModification - 2018.07.23 at 00h 44m 10s.xml">
+      <configuration name="GroupModificationTea.testGroupModification" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Trello_testTrello - 2018.07.15 at 18h 39m 10s.xml">
-      <configuration name="Trello.testTrello" configurationId="TestNG" />
+    <history-entry file="GroupModificationTea_testGroupModification - 2018.07.23 at 00h 45m 44s.xml">
+      <configuration name="GroupModificationTea.testGroupModification" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Ebay_testEbay - 2018.07.15 at 23h 41m 08s.xml">
-      <configuration name="Ebay.testEbay" configurationId="TestNG" />
+    <history-entry file="GroupDeletionTest_testGroupModification - 2018.07.23 at 00h 46m 07s.xml">
+      <configuration name="GroupDeletionTest.testGroupModification" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Ebay_testEbay - 2018.07.16 at 12h 15m 56s.xml">
-      <configuration name="Ebay.testEbay" configurationId="TestNG" />
+    <history-entry file="GroupDeletionTest_testGroupModification - 2018.07.23 at 00h 46m 26s.xml">
+      <configuration name="GroupDeletionTest.testGroupModification" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Ebay_testEbay_(1) - 2018.07.16 at 12h 16m 32s.xml">
-      <configuration name="Ebay.testEbay (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Ebay_testEbay_(1) - 2018.07.16 at 18h 12m 41s.xml">
-      <configuration name="Ebay.testEbay (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Ebay_testEbay_(1) - 2018.07.16 at 18h 15m 22s.xml">
-      <configuration name="Ebay.testEbay (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTest_testGroupCreation - 2018.07.22 at 23h 26m 41s.xml">
+    <history-entry file="GroupCreationTest_testGroupCreation - 2018.07.23 at 00h 52m 09s.xml">
       <configuration name="GroupCreationTest.testGroupCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTest_testGroupCreation - 2018.07.22 at 23h 27m 14s.xml">
-      <configuration name="GroupCreationTest.testGroupCreation" configurationId="TestNG" />
+    <history-entry file="GroupModificationTest_testGroupModification - 2018.07.23 at 00h 52m 23s.xml">
+      <configuration name="GroupModificationTest.testGroupModification" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTest_testGroupCreation - 2018.07.22 at 23h 40m 03s.xml">
-      <configuration name="GroupCreationTest.testGroupCreation" configurationId="TestNG" />
+    <history-entry file="GroupDeletionTest_testGroupModification - 2018.07.23 at 00h 52m 46s.xml">
+      <configuration name="GroupDeletionTest.testGroupModification" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTest - 2018.07.23 at 01h 01m 36s.xml">
+      <configuration name="ContactCreationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTest_testContactCreation - 2018.07.23 at 01h 02m 50s.xml">
+      <configuration name="ContactCreationTest.testContactCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTest_testContactCreation - 2018.07.23 at 01h 03m 43s.xml">
+      <configuration name="ContactCreationTest.testContactCreation" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="473" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -1623,11 +1659,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42692307" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42692307" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27682403" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19670959" />
       <window_info anchor="bottom" id="Build" order="7" />
       <window_info anchor="right" id="Gradle" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1679,7 +1715,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1703,18 +1739,18 @@
           <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="e#1822#1823#0" expanded="true" />
             <element signature="e#1847#1848#0" expanded="true" />
             <element signature="e#1904#1905#0" expanded="true" />
             <element signature="e#1958#1959#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1429#1430#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+            <element signature="e#2178#2179#0" expanded="true" />
+            <element signature="e#2232#2233#0" expanded="true" />
+            <element signature="e#2268#2269#0" expanded="true" />
+            <element signature="e#2329#2330#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1739,18 +1775,18 @@
           <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="e#1822#1823#0" expanded="true" />
             <element signature="e#1847#1848#0" expanded="true" />
             <element signature="e#1904#1905#0" expanded="true" />
             <element signature="e#1958#1959#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1429#1430#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+            <element signature="e#2178#2179#0" expanded="true" />
+            <element signature="e#2232#2233#0" expanded="true" />
+            <element signature="e#2268#2269#0" expanded="true" />
+            <element signature="e#2329#2330#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1900,39 +1936,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupDeletionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="94">
+          <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupModificationTea.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupModificationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+        <state relative-caret-position="210">
+          <caret line="56" selection-start-line="56" selection-end-line="59" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1857#1858#0" expanded="true" />
+            <element signature="e#1882#1883#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/GroupCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        <state relative-caret-position="327">
+          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="e#1822#1823#0" expanded="true" />
             <element signature="e#1847#1848#0" expanded="true" />
             <element signature="e#1904#1905#0" expanded="true" />
             <element signature="e#1958#1959#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1429#1430#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+            <element signature="e#2178#2179#0" expanded="true" />
+            <element signature="e#2232#2233#0" expanded="true" />
+            <element signature="e#2268#2269#0" expanded="true" />
+            <element signature="e#2329#2330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/tran/qa16/ContactCreationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1835#1836#0" expanded="true" />
+            <element signature="e#1860#1861#0" expanded="true" />
           </folding>
         </state>
       </provider>
