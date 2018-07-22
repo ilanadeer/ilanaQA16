@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/HW_Ebay.iml" filepath="$PROJECT_DIR$/.idea/modules/HW_Ebay.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/HW_Ebay_main.iml" filepath="$PROJECT_DIR$/.idea/modules/HW_Ebay_main.iml" group="HW_Ebay" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/HW_Ebay_test.iml" filepath="$PROJECT_DIR$/.idea/modules/HW_Ebay_test.iml" group="HW_Ebay" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-web-tests.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-web-tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests_main.iml" group="addressbook-web-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-web-tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests_test.iml" group="addressbook-web-tests" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstProject.iml" filepath="$PROJECT_DIR$/.idea/modules/firstProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/firstProject_main.iml" group="firstProject" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/firstProject_test.iml" group="firstProject" />
