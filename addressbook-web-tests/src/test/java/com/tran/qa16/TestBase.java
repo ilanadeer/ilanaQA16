@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
@@ -13,11 +14,14 @@ public class TestBase {
 
     @BeforeMethod
     public void setUp() {
+        start();
+        openSite();
+        login();
+    }
+
+    public void start() {
         wd = new ChromeDriver();
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        openSite();
-
-        login();
     }
 
     @AfterMethod
@@ -136,16 +140,54 @@ public class TestBase {
         return wd.findElements(By.name("selected[]")).size();
     }
 
-    protected void confirmAlert() {
+    public void confirmAlert() {
         wd.switchTo().alert().accept();
     }
 
-    protected void deleteContact() {
+    public void deleteContact() {
         wd.findElement(By.xpath("//*[@value='Delete']")).click();
     }
 
-    protected void selectContact() {
+    public void selectContact() {
         wd.findElement(By.name("selected[]")).click();
 
     }
+
+    protected void dismissAlert() {
+        wd.switchTo().alert().dismiss();
+    }
+
+
+    public void selectGroupByIndex(int ind) {
+        wd.findElements(By.name("selected[]")).get(ind).click();
+    }
+
+    public boolean isElementPresent(By locator){
+        try {
+            wd.findElement(locator);
+            return true;
+        }catch (NoSuchElementException ex){
+            System.out.println("This Element not located "+ex);
+            return false;
+        }
+    }
+
+    public boolean isGroupPresent(){
+        return isElementPresent(By.name("selected[]"));
+    }
+
+    public void createGroup(){
+        initGroupCreation();
+        fillGroupsForm(new GroupData()
+                .withName("testGroupHeader1")
+                .withHeader("testGroupHeader")
+                .withFooter("testGroupFooter"));
+        submitGroupCreation();
+        returnToTheGroupsPage();
+    }
+    public boolean isElementsPresent(By locator){
+        return wd.findElements(locator).size()>0;
+
+    }
+
 }

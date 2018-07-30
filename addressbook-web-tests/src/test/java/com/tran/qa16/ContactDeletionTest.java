@@ -12,6 +12,7 @@ public class ContactDeletionTest extends TestBase{
         selectContact();
         deleteContact();
         confirmAlert();
+        dismissAlert();
         int after = getGroupsCount();
         Assert.assertEquals(after, before-1);
     }
