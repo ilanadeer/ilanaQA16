@@ -7,22 +7,22 @@ public class GroupModificationTest extends TestBase {
 
     @Test
     public void testGroupModification() {
-        goToGroupsPage();
-        int before = getGroupsCount();
+        app.goToGroupsPage();
+        int before = app.getGroupHelper().getGroupsCount();
 
-        selectGroup();
+        app.getGroupHelper().selectGroup();
 
-        editGroup();
+        app.getGroupHelper().editGroup();
 
-        fillGroupsForm(new GroupData()
+        app.getGroupHelper().fillGroupsForm(new GroupData()
                 .withName("1")
                 .withHeader("2")
                 .withFooter("3"));
 
-        updateGroupModification();
+        app.getGroupHelper().updateGroupModification();
 
-        returnToTheGroupsPage();
-        int after = getGroupsCount();
+        app.getGroupHelper().returnToTheGroupsPage();
+        int after = app.getGroupHelper().getGroupsCount();
         Assert.assertEquals(after, before+1);
 
     }

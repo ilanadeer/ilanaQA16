@@ -1,6 +1,5 @@
 package com.tran.qa16;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -8,30 +7,30 @@ public class GroupDeletionTest extends TestBase {
 
     @Test
     public void testLastGroupDeletion() {
-        goToGroupsPage();
+        app.goToGroupsPage();
 
-        if(!isGroupPresent()){
-            createGroup();
+        if(!app.getGroupHelper().isGroupPresent()){
+            app.getGroupHelper().createGroup();
         }
-        int before = getGroupsCount();
-        selectGroupByIndex(before-1);//lastgroup
-        deleteSelectedGroup();
-        returnToTheGroupsPage();
-        int after = getGroupsCount();
+        int before = app.getGroupHelper().getGroupsCount();
+        app.selectGroupByIndex(before-1);//lastgroup
+        app.getGroupHelper().deleteSelectedGroup();
+        app.getGroupHelper().returnToTheGroupsPage();
+        int after = app.getGroupHelper().getGroupsCount();
         Assert.assertEquals(after, before-1);
     }
     @Test
     public void testFirstGroupDeletion() {
-        goToGroupsPage();
+        app.goToGroupsPage();
 
-        if(!isGroupPresent()){
-            createGroup();
+        if(!app.getGroupHelper().isGroupPresent()){
+            app.getGroupHelper().createGroup();
         }
-        int before = getGroupsCount();
-        selectGroup();//fistgroup
-        deleteSelectedGroup();
-        returnToTheGroupsPage();
-        int after = getGroupsCount();
+        int before = app.getGroupHelper().getGroupsCount();
+        app.getGroupHelper().selectGroup();//fistgroup
+        app.getGroupHelper().deleteSelectedGroup();
+        app.getGroupHelper().returnToTheGroupsPage();
+        int after = app.getGroupHelper().getGroupsCount();
         Assert.assertEquals(after, before-1);
     }
 

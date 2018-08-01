@@ -5,12 +5,12 @@ import org.testng.annotations.Test;
 public class ContactCreationTest extends TestBase {
     @Test
     public void testContactCreation() {
-        addNewContact();
+        app.addNewContact();
 
-        fillContactForm(new ContactData("Anna", "Ivanova", "052000", "qwerty@mail.com"));
+        app.fillContactForm(new ContactData("Anna", "Ivanova", "052000", "qwerty@mail.com"));
 
-        submitContactCreation();
+        app.submitContactCreation();
 
-        goToHomePage();
+        app.goToHomePage();
     }
 }
