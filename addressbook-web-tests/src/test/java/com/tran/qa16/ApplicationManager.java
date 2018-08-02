@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
-public class ApplicationManager {
+public class ApplicationManager{
     SessionHelper sessionHelper;
     GroupHelper groupHelper;
     private WebDriver wd;
@@ -74,10 +74,6 @@ public class ApplicationManager {
 
     protected void dismissAlert() {
         wd.switchTo().alert().dismiss();
-    }
-
-    public void selectGroupByIndex(int ind) {
-        wd.findElements(By.name("selected[]")).get(ind).click();
     }
 
     public boolean isElementPresent(By locator){

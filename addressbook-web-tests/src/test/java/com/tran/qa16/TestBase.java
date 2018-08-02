@@ -2,7 +2,7 @@ package com.tran.qa16;
 
 import org.testng.annotations.*;
 
-public class TestBase {
+public class TestBase extends ApplicationManager{
 
     protected static ApplicationManager app = new ApplicationManager();
 

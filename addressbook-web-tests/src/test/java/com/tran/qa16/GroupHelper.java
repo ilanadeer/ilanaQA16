@@ -74,7 +74,7 @@ public class GroupHelper extends HelperBase{
     public void createGroup(){
         initGroupCreation();
         fillGroupsForm(new GroupData()
-                .withName("testGroupHeader1")
+                .withName("testGroupName")
                 .withHeader("testGroupHeader")
                 .withFooter("testGroupFooter"));
         submitGroupCreation();
@@ -82,6 +82,9 @@ public class GroupHelper extends HelperBase{
     }
     public boolean isGroupPresent(){
         return isElementPresent(By.name("selected[]"));
+    }
+    public void selectGroupByIndex(int ind) {
+        wd.findElements(By.name("selected[]")).get(ind).click();
     }
 
 }
